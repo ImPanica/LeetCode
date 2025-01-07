@@ -1,6 +1,7 @@
 ﻿using Algos.Is_Subsequence;
 using Algos.Majority_Element;
 using Algos.Move_Zeroes;
+using Algos.Reverse_Words_in_a_String;
 
 namespace Algos;
 
@@ -28,6 +29,14 @@ class Program
         // s = "axc", t = "ahbgdc"
         var isSubsequence = Subsequence.IsSubsequence("abc", "ahbgdc");
         Console.WriteLine(isSubsequence);
+        
+        Split();
+        // Реверс слов с пробелами https://leetcode.com/problems/reverse-words-in-a-string/
+        // "the sky is blue"
+        // "  hello world  "
+        // "a good   example"
+        var reverceWords = ReverseWords.ReverseOptionTwo("a good   example");
+        Console.WriteLine(reverceWords);
         
         Console.ReadKey();
     }
