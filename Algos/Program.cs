@@ -1,4 +1,5 @@
-﻿using Algos.Is_Subsequence;
+﻿using Algos.Bits.Counting_Bits;
+using Algos.Is_Subsequence;
 using Algos.Majority_Element;
 using Algos.Move_Zeroes;
 using Algos.Reverse_Words_in_a_String;
@@ -37,6 +38,21 @@ class Program
         // "a good   example"
         var reverceWords = ReverseWords.ReverseOptionTwo("a good   example");
         Console.WriteLine(reverceWords);
+        
+        Split();
+        // Получение едениц в битовом представлении числа https://leetcode.com/problems/counting-bits/description/
+        // Input: n = 5
+        // Output: [0,1,1,2,1,2]
+        // Input: n = 2
+        // Output: [0,1,1]
+
+        var result = CountingBits.CountBits(7);
+        for (int i = 0; i < result.Length; i++)
+        {
+            Console.Write($"{result[i]} ");
+        }
+        
+        Split();
         
         Console.ReadKey();
     }
