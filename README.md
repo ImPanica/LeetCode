@@ -1,9 +1,9 @@
 ## 🎯 Solutions Statistics
 
-- 👶 **Easy**: 4 problems
+- 👶 **Easy**: 5 problems
 - 💪 **Medium**: 1 problems
 - 🧠 **Hard**: 0 problems
-- 🏆 **Total**: 5 problems solved
+- 🏆 **Total**: 6 problems solved
 
 ## 📊 Progress Tracker
 
