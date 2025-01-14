@@ -16,6 +16,12 @@ public class RotateArray
         Reverse(nums, k, nums.Length - 1);
     }
     
+    /// <summary>
+    /// Реверс массива
+    /// </summary>
+    /// <param name="nums">Массив</param>
+    /// <param name="start">Откуда начинаем</param>
+    /// <param name="end">Где заканчиваем</param>
     static void Reverse(int[] nums, int start, int end)
     {
         // Проходим по циклу пока условия соблюдены
