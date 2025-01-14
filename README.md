@@ -16,4 +16,4 @@
 | 5   | [Counting Bits](https://leetcode.com/problems/counting-bits/description/)                                             | 👶 Easy | [Solution](./Algos/Bits/Counting%20Bits)                               | ✅ |
 | 6   | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | 👶 Easy | [Solution](./Algos/Arrays/Remove%20Duplicates%20from%20Sorted%20Array) | ✅ |
 | 7   | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)                                       | 👶 Easy | [Solution](./Algos/Strings/Valid%20Palindrome)                         | ✅ |
-| 8   | [Rotate Array](https://leetcode.com/problems/rotate-array/description/)                                               | 💪 Medium | [Solution](./Algos/Strings/Rotate%20Array)                             | ✅ |
+| 8   | [Rotate Array](https://leetcode.com/problems/rotate-array/description/)                                               | 💪 Medium | [Solution](./Algos/Arrays/Rotate%20Array)                              | ✅ |
